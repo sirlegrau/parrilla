@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('https://raw.githubusercontent.com/sirlegrau/parrilla/a04ae8c968a2ef80494cce201b5dfa4929d9cb92/programacion.json')
+    fetch('https://raw.githubusercontent.com/sirlegrau/parrilla/main/programacion.json')
         .then(response => response.json())
         .then(data => {
             const scheduleDiv = document.getElementById('schedule');
