@@ -1,26 +1,31 @@
 {
     "DESAYUNO": {
+        "description": "Programas ideales para comenzar el día con energía y buen ánimo.",
         "09:00-10:00": "Friends",
         "10:00-11:00": "Lost",
         "11:00-12:00": "Gilmore Girls",
         "12:00-13:00": "Smallville"
     },
     "HORA DEL TERROR": {
+        "description": "Momentos espeluznantes para disfrutar de un buen susto.",
         "13:00-14:00": "The Office",
         "14:00-15:00": "How I Met Your Mother",
         "15:00-16:00": "Grey's Anatomy"
     },
     "TARDE DE SERIES": {
+        "description": "Series emocionantes para acompañar tu tarde.",
         "16:00-17:00": "24",
         "17:00-18:00": "House",
         "18:00-19:00": "Scrubs"
     },
     "NOCHE DE ACCIÓN": {
+        "description": "Acción sin parar para una noche emocionante.",
         "19:00-20:00": "Supernatural",
         "20:00-21:00": "The O.C.",
         "21:00-22:00": "Desperate Housewives"
     },
     "NOCHE DE DRAMA": {
+        "description": "Drama cautivador para cerrar la noche con intensidad.",
         "22:00-23:00": "Veronica Mars",
         "23:00-00:00": "Prison Break"
     }
