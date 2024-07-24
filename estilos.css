@@ -11,10 +11,10 @@ body {
 }
 
 .container {
-    width: 50%;
+    width: 69%;
     margin: auto;
     overflow: hidden;
-    max-width: 1200px;
+    max-width: 960px;
 }
 
 h1 {
@@ -32,12 +32,11 @@ h1 {
     font-weight: bold;
     text-align: left;
     padding: 15px 20px;
-    margin-top: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     font-size: 1.5em;
     position: relative;
-    cursor: pointer; /* Cambia el cursor para indicar que es interactivo */
+    margin-top: -10px;
 }
 
 .moment-title::before {
@@ -144,56 +143,20 @@ footer {
     transform: scale(1.05);
 }
 
-/* Media queries for responsiveness */
-@media (max-width: 768px) {
-    .container {
-        width: 100%;
-        padding: 0 10px;
-    }
-
-    h1 {
-        font-size: 1.8em;
-    }
-
-    .moment-title {
-        font-size: 1.2em;
-        padding: 10px 15px;
-    }
-
-    th, td {
-        padding: 8px;
-        font-size: 0.9em;
-    }
-
-    .mailto-button {
-        font-size: 1em;
-        padding: 10px 20px;
-    }
+.day-column {
+    display: inline-block;
+    vertical-align: top;
+    width: 45%;
+    margin: 10px;
+    padding: 10px;
 }
 
-@media (max-width: 480px) {
-    h1 {
-        font-size: 1.2em;
-    }
-
-    h1:nth-of-type(2) {
-        margin-top: -40px; 
-        font-size: 2em; 
-        margin-bottom: -5px;
-    }
-
-    .moment-title {
-        font-size: 1em;
-        padding: 8px 10px;
-    }
-
-    th, td {
-        padding: 6px;
-        font-size: 0.8em;
-    }
-
-    .mailto-button {
-        font-size: 0.9em;
-        padding: 8px 15px;
-    }
+.day-title {
+    color: #fff;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    margin: -20px -20px 10px -20px;
 }

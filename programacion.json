@@ -1,30 +1,35 @@
 {
-    "Lunes": {
+    "Lunes a Viernes": {
         "🌞 BUENOS DÍAS 🌞": {
-            "description": "El mundo ya es suficientemente hostil, acompañémonos mientras nos preparamos para afrontarlo.",
-            "08:30-10:30": "Kochikame",
-            "10:30-11:30": "Ed, Edd y Eddy",
-            "11:30-12:00": "Las Macabras Aventuras de Billy y Mandy",
-            "12:00-12:30": "Los Padrinos Mágicos",
-            "12:30-15:00": "Kochikame"
+            "description": "Ante un mundo hostil, dejemos que nuestro ceporro nos ayude a afrontarlo.",
+            "08:00-13:00": "Kochikame",
+            "13:00-15:00": "Shin Chan"
         },
-        "HORA DE LOS SUSTOS": {
+        "Tardes Gamberras": {
             "description": "Escalofriante",
-            "17:30-19:30": "Scooby-doo"
+            "15:00-17:00": "Ed, Edd y Eddy",
+            "17:00-20:00": "Phineas y Ferb"
+        },
+        "Noches ACME": {
+            "description": "Deja que te invada la nostalgia con una selección de más de 2000 cortos de animación en Versión Original",
+            "20:00-08:00": "ACME"
         }
     },
-    "Martes": {
+    "Fines de Semana": {
         "🌞 BUENOS DÍAS 🌞": {
-            "description": "Disfruta tu martes con nuestras series favoritas.",
-            "08:30-10:30": "Bob Esponja",
-            "10:30-11:30": "Johnny Bravo",
-            "11:30-12:00": "Coraje, el perro cobarde",
-            "12:00-12:30": "La Vaca y el Pollito",
-            "12:30-15:00": "Dragon Ball Z"
+            "description": "Prepara tus cereales favoritos que las series las pongo yo",
+            "08:00-10:30": "Doraemon",
+            "10:30-15:00": "Shin Chan"
         },
-        "HORA DE LOS SUSTOS": {
-            "description": "Más aventuras y misterios.",
-            "17:30-19:30": "Scooby-doo"
+        "TARDES DE SUSTOS": {
+            "description": "Mantita y míticas series de terror",
+            "15:00-17:00": "Scooby-Doo",
+            "17:00-18:30": "Agallas, el perro cobarde",
+            "18:30-20:00": "Las Macabras Aventuras de Billy y Mandy"
+        },
+        "Noches ACME": {
+            "description": "Deja que te invada la nostalgia con una selección de más de 2000 cortos de animación en Versión Original",
+            "20:00-08:00": "ACME"
         }
     }
 }

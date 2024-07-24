@@ -4,41 +4,55 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(data => {
             const scheduleDiv = document.getElementById('schedule');
 
-            for (const moment in data) {
-                const momentData = data[moment];
+            for (const day in data) {
+                const dayData = data[day];
                 
-                const momentTitle = document.createElement('div');
-                momentTitle.className = 'moment-title';
-                momentTitle.textContent = moment;
+                const dayColumn = document.createElement('div');
+                dayColumn.className = 'day-column';
 
-                const descriptionDiv = document.createElement('div');
-                descriptionDiv.className = 'moment-description';
-                descriptionDiv.textContent = momentData.description;
-                
-                momentTitle.appendChild(descriptionDiv);
-                scheduleDiv.appendChild(momentTitle);
+                const dayTitle = document.createElement('div');
+                dayTitle.className = 'day-title';
+                dayTitle.textContent = day;
+                dayColumn.appendChild(dayTitle);
 
-                const table = document.createElement('table');
-                const tbody = document.createElement('tbody');
+                for (const moment in dayData) {
+                    const momentData = dayData[moment];
+                    
+                    const momentTitle = document.createElement('div');
+                    momentTitle.className = 'moment-title';
+                    momentTitle.textContent = moment;
 
-                for (const time in momentData) {
-                    if (time !== 'description') {
-                        const row = document.createElement('tr');
+                    const descriptionDiv = document.createElement('div');
+                    descriptionDiv.className = 'moment-description';
+                    descriptionDiv.textContent = momentData.description;
+                    
+                    momentTitle.appendChild(descriptionDiv);
+                    dayColumn.appendChild(momentTitle);
 
-                        const timeCell = document.createElement('td');
-                        timeCell.textContent = time;
-                        row.appendChild(timeCell);
+                    const table = document.createElement('table');
+                    const tbody = document.createElement('tbody');
 
-                        const programCell = document.createElement('td');
-                        programCell.textContent = momentData[time];
-                        row.appendChild(programCell);
+                    for (const time in momentData) {
+                        if (time !== 'description') {
+                            const row = document.createElement('tr');
 
-                        tbody.appendChild(row);
+                            const timeCell = document.createElement('td');
+                            timeCell.textContent = time;
+                            row.appendChild(timeCell);
+
+                            const programCell = document.createElement('td');
+                            programCell.textContent = momentData[time];
+                            row.appendChild(programCell);
+
+                            tbody.appendChild(row);
+                        }
                     }
+
+                    table.appendChild(tbody);
+                    dayColumn.appendChild(table);
                 }
 
-                table.appendChild(tbody);
-                scheduleDiv.appendChild(table);
+                scheduleDiv.appendChild(dayColumn);
             }
         })
         .catch(error => console.error('Error al cargar la programación:', error));
