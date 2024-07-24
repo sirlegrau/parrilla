@@ -6,7 +6,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #1a1a1a, #333333);
+    background: linear-gradient(135deg, #212121, #212121);
     color: #e0e0e0;
 }
 
@@ -102,7 +102,7 @@ table {
 }
 
 table, th, td {
-    border: 1px solid #444444;
+    border: 1px solid #212121;
 }
 
 th, td {
@@ -123,10 +123,12 @@ td {
 
 tr:nth-child(even) td {
     background: rgba(255, 255, 255, 0.2);
+    font-weight: bolder;
 }
 
 tr:nth-child(odd) td {
     background: rgba(255, 255, 255, 0.15);
+    font-weight: bolder;
 }
 
 /* New styles for the mailto button */
