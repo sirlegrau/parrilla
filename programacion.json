@@ -1,20 +1,10 @@
 {
-    "🌞 BUENOS DÍAS 🌞": [
-        {
-            "description": "El mundo ya es suficientemente hostil, acompañémonos mientras nos preparamos para afrontarlo.",
-            "08:30-10:30": "Kochikame",
-            "10:30-11:30": "Ed, Edd y Eddy",
-            "11:30-12:00": "Las Macabras Aventuras de Billy y Mandy",
-            "12:00-12:30": "Los Padrinos Mágicos",
-            "12:30-15:00": "Kochikame"
-        },
-        {
-            "description": "Programación alternativa.",
-            "08:30-10:30": "Dragon Ball",
-            "10:30-11:30": "Naruto",
-            "11:30-12:00": "One Piece",
-            "12:00-12:30": "Bleach",
-            "12:30-15:00": "Dragon Ball Z"
-        }
-    ]
+    "🌞 BUENOS DÍAS 🌞": {
+        "description": "El mundo ya es suficientemente hostil, acompañémonos mientras nos preparamos para afrontarlo.",
+        "08:30-10:30": "Kochikame",
+        "10:30-11:30": "Ed, Edd y Eddy",
+        "11:30-12:00": "Las Macabras Aventuras de Billy y Mandy",
+        "12:00-12:30": "Los Padrinos Mágicos",
+        "12:30-15:00": "Kochikame"
+    }
 }
