@@ -8,6 +8,7 @@ body {
     padding: 0;
     background: linear-gradient(135deg, #212121, #212121);
     color: #e0e0e0;
+    position: relative; /* Added for absolute positioning of button */
 }
 
 .container {
@@ -107,8 +108,9 @@ tr:nth-child(odd) td {
 
 /* New styles for the mailto button */
 footer {
-    text-align: center;
-    margin: 30px 0;
+    position: absolute;
+    top: 55px; /* Adjust the value as needed */
+    right: 69px; /* Adjust the value as needed */
 }
 
 .mailto-button {
@@ -136,7 +138,7 @@ footer {
     60% {
       transform: translateY(-15px);
     }
-  }
+}
   
 .mailto-button:hover {
     background: linear-gradient(135deg, #0056b3, #003d7a);

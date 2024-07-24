@@ -5,12 +5,12 @@
             "08:00-13:00": "Kochikame",
             "13:00-15:00": "Shin Chan"
         },
-        "Tardes Gamberras": {
+        "TARDES GAMBERRAS": {
             "description": "Escalofriante",
             "15:00-17:00": "Ed, Edd y Eddy",
             "17:00-20:00": "Phineas y Ferb"
         },
-        "Noches ACME": {
+        "NOCHES ACME": {
             "description": "Deja que te invada la nostalgia con una selección de más de 2000 cortos de animación en Versión Original",
             "20:00-08:00": "ACME"
         }
@@ -27,7 +27,7 @@
             "17:00-18:30": "Agallas, el perro cobarde",
             "18:30-20:00": "Las Macabras Aventuras de Billy y Mandy"
         },
-        "Noches ACME": {
+        "NOCHES ACME": {
             "description": "Deja que te invada la nostalgia con una selección de más de 2000 cortos de animación en Versión Original",
             "20:00-08:00": "ACME"
         }
