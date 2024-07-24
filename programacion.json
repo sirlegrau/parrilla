@@ -1,10 +1,30 @@
 {
-    "🌞 BUENOS DÍAS 🌞": {
-        "description": "El mundo ya es suficientemente hostil, acompañémonos mientras nos preparamos para afrontarlo.",
-        "08:30-10:30": "Kochikame",
-        "10:30-11:30": "Ed, Edd y Eddy",
-        "11:30-12:00": "Las Macabras Aventuras de Billy y Mandy",
-        "12:00-12:30": "Los Padrinos Mágicos",
-        "12:30-15:00": "Kochikame"
+    "Lunes": {
+        "🌞 BUENOS DÍAS 🌞": {
+            "description": "El mundo ya es suficientemente hostil, acompañémonos mientras nos preparamos para afrontarlo.",
+            "08:30-10:30": "Kochikame",
+            "10:30-11:30": "Ed, Edd y Eddy",
+            "11:30-12:00": "Las Macabras Aventuras de Billy y Mandy",
+            "12:00-12:30": "Los Padrinos Mágicos",
+            "12:30-15:00": "Kochikame"
+        },
+        "HORA DE LOS SUSTOS": {
+            "description": "Escalofriante",
+            "17:30-19:30": "Scooby-doo"
+        }
+    },
+    "Martes": {
+        "🌞 BUENOS DÍAS 🌞": {
+            "description": "Disfruta tu martes con nuestras series favoritas.",
+            "08:30-10:30": "Bob Esponja",
+            "10:30-11:30": "Johnny Bravo",
+            "11:30-12:00": "Coraje, el perro cobarde",
+            "12:00-12:30": "La Vaca y el Pollito",
+            "12:30-15:00": "Dragon Ball Z"
+        },
+        "HORA DE LOS SUSTOS": {
+            "description": "Más aventuras y misterios.",
+            "17:30-19:30": "Scooby-doo"
+        }
     }
 }
