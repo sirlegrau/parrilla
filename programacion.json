@@ -1,10 +1,27 @@
 {
     "🌞 BUENOS DÍAS 🌞": {
         "description": "El mundo ya es suficientemente hostil, acompañémonos mientras nos preparamos para afrontarlo.",
-        "08:30-10:30": "Kochikame",
-        "10:30-11:30": "Ed, Edd y Eddy",
-        "11:30-12:00": "Las Macabras Aventuras de Billy y Mandy",
-        "12:00-12:30": "Los Padrinos Mágicos",
-        "12:30-15:00": "Kochikame"
+        "programs": {
+            "08:30-10:30": {
+                "title": "Kochikame",
+                "canal": "Canal 1"
+            },
+            "10:30-11:30": {
+                "title": "Ed, Edd y Eddy",
+                "canal": "Canal 2"
+            },
+            "11:30-12:00": {
+                "title": "Las Macabras Aventuras de Billy y Mandy",
+                "canal": "Canal 1"
+            },
+            "12:00-12:30": {
+                "title": "Los Padrinos Mágicos",
+                "canal": "Canal 3"
+            },
+            "12:30-15:00": {
+                "title": "Kochikame",
+                "canal": "Canal 1"
+            }
+        }
     }
 }
